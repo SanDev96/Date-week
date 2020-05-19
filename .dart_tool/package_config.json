@@ -62,10 +62,28 @@
       "languageVersion": "2.2"
     },
     {
+      "name": "flutter_spinkit",
+      "rootUri": "file:///C:/Users/Patri/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/flutter_spinkit-4.1.2+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.5"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///C:/src/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "2.2"
+    },
+    {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///C:/src/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "fluttertoast",
+      "rootUri": "file:///C:/Users/Patri/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/fluttertoast-4.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
     },
     {
       "name": "image",
@@ -108,6 +126,18 @@
       "rootUri": "file:///C:/Users/Patri/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/quiver-2.0.5",
       "packageUri": "lib/",
       "languageVersion": "2.0"
+    },
+    {
+      "name": "shimmer",
+      "rootUri": "file:///C:/Users/Patri/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/shimmer-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "1.20"
+    },
+    {
+      "name": "simple_animations",
+      "rootUri": "file:///C:/Users/Patri/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/simple_animations-1.3.12",
+      "packageUri": "lib/",
+      "languageVersion": "2.4"
     },
     {
       "name": "sky_engine",
@@ -173,10 +203,10 @@
       "name": "flutterdateweek",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.1"
+      "languageVersion": "2.2"
     }
   ],
-  "generated": "2020-05-19T08:34:13.120526Z",
+  "generated": "2020-05-19T12:05:51.983191Z",
   "generator": "pub",
   "generatorVersion": "2.7.0"
 }
