@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "971763056508",
+    "firebase_url": "https://date-week.firebaseio.com",
+    "project_id": "date-week",
+    "storage_bucket": "date-week.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971763056508:android:8d5c15057095f69ad7aef9",
+        "android_client_info": {
+          "package_name": "com.date.flutterdateweek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971763056508-i3dn2qdhq1dpgc5nf0su79k2rrpjdljk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuqyYLiBXk-C5HV8qzGvMKPZQ32D4yQ1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971763056508-i3dn2qdhq1dpgc5nf0su79k2rrpjdljk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

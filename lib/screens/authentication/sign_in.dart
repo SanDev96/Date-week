@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutterdateweek/Backend/sign_in.dart';
+import 'package:flutterdateweek/Backend/text_controllers/controllers.dart';
 
 class SignIn extends StatelessWidget {
   @override
@@ -55,6 +57,7 @@ class SignIn extends StatelessWidget {
                                 children: <Widget>[
                                   SizedBox(height: 24.0,),
                                   TextFormField(
+                                    controller: emailController,
                                     cursorColor: Colors.grey,
                                     decoration: InputDecoration(
                                       contentPadding: EdgeInsets.symmetric(vertical: 0.0, horizontal: 16.0),
@@ -72,6 +75,7 @@ class SignIn extends StatelessWidget {
                                     height: 24,
                                   ),
                                   TextFormField(
+                                    controller: passwordController,
                                     cursorColor: Colors.grey,
                                     decoration: InputDecoration(
                                       contentPadding: EdgeInsets.symmetric(vertical: 0.0, horizontal: 16.0),
@@ -104,7 +108,8 @@ class SignIn extends StatelessWidget {
                                   ),
                                   FlatButton(
                                     onPressed: () {
-                                      Navigator.pushReplacementNamed(context , '/home');
+                                      signIn(emailController.text, passwordController.text).whenComplete((){
+                                      Navigator.pushReplacementNamed(context , '/home');});
                                     },
                                     color: Colors.white10,
                                     child: Text(
